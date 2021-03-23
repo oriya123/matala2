@@ -17,8 +17,8 @@ def countword()->int:
             b=revword(a[i])
             if (word.strip()==b.strip()):
                 counter=counter+1    
-    print(counter)
-countword()
+    return counter
+
 
 
 
