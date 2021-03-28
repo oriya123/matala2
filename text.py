@@ -12,7 +12,6 @@ def countword()-> int:
     word=word.lower()
     for line in fhand:  
         words1=line.split() 
-        print(words1)
         numberofwords=len(words1)
         for i in range(numberofwords):        
             a=line.split()
@@ -21,5 +20,4 @@ def countword()-> int:
                 counter=counter+1      
     return counter
 
-countword()   
 
